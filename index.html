@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Novio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                Novio
+            </h2>
+            <div class="search-bar">
+                <i class='bx bx-search'></i>
+                <input type="search" placeholder="Rechercher sur Novio">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Créer</label>
+                <div class="profile-photo">
+                    <img src="/assets/img/profile-1.jpg" alt="photo de profile 1">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <!-- LEFT -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="/assets/img/profile-1.jpg" alt="photo de profile 1">
+                    </div>
+                    <div class="handle">
+                        <h4>user 1</h4>
+                        <p class="text-muted">
+                            @user1
+                        </p>
+                    </div>
+                </a>
+                <!-- SIDBAR                 -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class='bx bx-home'></i></span>
+                        <h3>Accueil</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-compass'></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class='bx bx-bell'><small class="notification-count">6</small></i></span>
+                        <h3>Notifications</h3>
+                        <!-- NOTIFICATIONS POPUP                                           -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-2.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 2</b> a accepter votre demande d'amis
+                                    <small class="text-muted">Il y a 2 jours</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-3.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 3</b> a commenté votre post
+                                    <small class="text-muted">Il y a 1 heure</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-4.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 4</b> et <b>283 autres</b> ont aimé votre post
+                                    <small class="text-muted">Il y a 4 minutes</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-5.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 5</b> a commenté un post où vous êtes identifié
+                                    <small class="text-muted">Il y a 2 jours</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-6.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 6</b> a commenté votre post
+                                    <small class="text-muted">Il y a 1 heure</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-7.jpg">
+                                </div>
+                                <div class="notification-body">
+                                    <b>User 7</b> a commenté votre post
+                                    <small class="text-muted">Il y a 1 heure</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF NOTIFICATIONS POPUP -->
+                    </a>
+                    <a class="menu-item" id="messages-notification">
+                        <span><i class='bx bx-chat'><small class="notification-count">3</small></i></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-party'></i></span>
+                        <h3>Événements</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class='bx bx-paint'></i></span>
+                        <h3>Thème</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class='bx bx-cog'></i></i></span>
+                        <h3>Paramètre</h3>
+                    </a>
+                </div>
+                <!-- END OF SIDBAR -->
+                <label for="create-post" class="btn btn-primary">Créer un post</label>
+            </div>
+            <!-- END OF LEFT  -->
+            <!-- MIDDLE -->
+            <div class="middle">
+                <!-- STORIES -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-1.jpg">
+                        </div>
+                        <p class="name">Votre Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-9.jpg">
+                        </div>
+                        <p class="name">Person 1</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-10.jpg">
+                        </div>
+                        <p class="name">Person 2</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-11.jpg">
+                        </div>
+                        <p class="name">Person 3</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-12.jpg">
+                        </div>
+                        <p class="name">Person 4</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-13.jpg">
+                        </div>
+                        <p class="name">Person 5</p>
+                    </div>
+                </div>
+                <!-- END OF STORIES -->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="/assets/img/profile-1.jpg">
+                    </div>
+                    <input type="text" placeholder="Que voulez-vous dire , User 1 ?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                <!-- FEEDS -->
+                <div class="feeds">
+                    <!-- FEED 1 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-13.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Person 4</h3>
+                                    <small>Paris, il y a 15 minutes</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/img/feed-1.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class='bx bx-heart'></i></span>
+                                <span><i class='bx bx-comment'></i></span>
+                                <span><i class='bx bx-share-alt'></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class='bx bx-bookmark'></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/img/profile-10.jpg"></span>
+                            <span><img src="/assets/img/profile-4.jpg"></span>
+                            <span><img src="/assets/img/profile-15.jpg"></span>
+                            <p>Aimé par <b>Machin Truc</b> and <b>2,323 autres</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Person 4</b> Lorem ipsum amet, consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Voir les 277 commentaires</div>
+                    </div>
+                    <!-- FEED 2 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-10.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Person 10</h3>
+                                    <small>Lille, il y a 1 heure</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/img/feed-2.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class='bx bx-heart'></i></span>
+                                <span><i class='bx bx-comment'></i></span>
+                                <span><i class='bx bx-share-alt'></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class='bx bx-bookmark'></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/img/profile-10.jpg"></span>
+                            <span><img src="/assets/img/profile-4.jpg"></span>
+                            <span><img src="/assets/img/profile-15.jpg"></span>
+                            <p>Aimé par <b>Machin Truc</b> and <b>100 autres</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Person 10</b> Lorem ipsum amet, consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Voir les 40 commentaires</div>
+                    </div>
+                    <!-- FEED 3 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-9.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Person 9</h3>
+                                    <small>Amiens, il y a 2 heures</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/img/feed-3.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class='bx bx-heart'></i></span>
+                                <span><i class='bx bx-comment'></i></span>
+                                <span><i class='bx bx-share-alt'></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class='bx bx-bookmark'></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/img/profile-10.jpg"></span>
+                            <span><img src="/assets/img/profile-4.jpg"></span>
+                            <span><img src="/assets/img/profile-15.jpg"></span>
+                            <p>Aimé par <b>Bidule chouette</b> and <b>556 autres</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Person 9</b> Lorem ipsum amet, consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Voir les 133 commentaires</div>
+                    </div>
+                    <!-- FEED 4 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-8.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Person 8</h3>
+                                    <small>Madrid, il y a 4 heures</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/img/feed-4.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class='bx bx-heart'></i></span>
+                                <span><i class='bx bx-comment'></i></span>
+                                <span><i class='bx bx-share-alt'></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class='bx bx-bookmark'></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/img/profile-10.jpg"></span>
+                            <span><img src="/assets/img/profile-4.jpg"></span>
+                            <span><img src="/assets/img/profile-15.jpg"></span>
+                            <p>Aimé par <b>Machin Truc</b> and <b>1,237 autres</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Person 8</b> Lorem ipsum amet, consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Voir les 749 commentaires</div>
+                    </div>
+                    <!-- FEED 5 -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="/assets/img/profile-7.jpg">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Person 7</h3>
+                                    <small>New-York, il y a 6 heures</small>
+                                </div>
+                            </div>
+                            <span class="edit"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                        </div>
+                        <div class="photo">
+                            <img src="/assets/img/feed-5.jpg">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class='bx bx-heart'></i></span>
+                                <span><i class='bx bx-comment'></i></span>
+                                <span><i class='bx bx-share-alt'></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class='bx bx-bookmark'></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="/assets/img/profile-10.jpg"></span>
+                            <span><img src="/assets/img/profile-4.jpg"></span>
+                            <span><img src="/assets/img/profile-15.jpg"></span>
+                            <p>Aimé par <b>Machin Truc</b> and <b>952 autres</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Person 7</b> Lorem ipsum amet, consectetur adipisicing elit. <span
+                                    class="harsh-tag">#lifestyle</span></p>
+                        </div>
+                        <div class="comments text-muted">Voir les 401 commentaires</div>
+                    </div>
+                </div>
+                <!-- END OF FEEDS -->
+            </div>
+            <!-- END OF MIDDLE -->
+            <!-- RIGHT -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class='bx bx-edit'></i>
+                    </div>
+                    <!-- SEARCH BAR -->
+                    <div class="search-bar">
+                        <i class='bx bx-search'></i>
+                        <input type="search" placeholder="Recherchez un messages" id="message-search">
+                    </div>
+                    <!-- MESSAGES CATEGORY -->
+                    <div class="category">
+                        <h6 class="active">Tout</h6>
+                        <h6>Appels</h6>
+                        <h6 class="message-requests">Demandes(5)</h6>
+                    </div>
+                    <!-- MESSAGES  -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-7.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Friends 1</h5>
+                            <p class="text-bold">Salut ça va ?</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-5.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Amis 2</h5>
+                            <p class="text-muted">Ok</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-9.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Pote 3</h5>
+                            <p class="text-bold">2 nouveaux messages</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-2.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>copain 4</h5>
+                            <p class="text-muted">Merci</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/assets/img/profile-8.jpg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Mec 5</h5>
+                            <p class="text-muted">Bisous</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF MESSAGES -->
+                <!-- FRIENDS REQUESTS  -->
+                <div class="friend-requests">
+                    <h4>Demandes d'amis</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="/assets/img/profile-13.jpg">
+                            </div>
+                            <div>
+                                <h5>Futur Amis</h5>
+                                <p class="text-muted">
+                                    8 amis en communs
+                                </p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accepter
+                            </button>
+                            <button class="btn">
+                                Refuser
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF RIGHT -->
+        </div>
+    </main>
+    <!--====================================================== THEME CUSTOMIZATION =================================================================-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Personnalisez votre interface</h2>
+            <p class="text-muted">Modifiez votre taille de texte, la couleur et la couleur de fond</p>
+            <!-- FONT SIZE -->
+            <div class="font-size">
+                <h4>Taille du texte</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- PRIMARY COLORS -->
+            <div class="color">
+                <h4>Couleur</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- BACKGROUND COLOR -->
+            <div class="background">
+                <h4>Couleur de fond</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Blanc</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Violet</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Noir</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
